@@ -1,0 +1,49 @@
+.moviesPage {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(200, 200, 200);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input {
+  border-radius: 8px;
+  padding: 12px;
+  width: 300px;
+}
+
+.btn {
+  padding: 8px 12px;
+  background-color: rgb(140, 0, 255);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 75px;
+}
+
+@media (max-width: 768px) {
+  .input {
+    width: 100%;
+  }
+  .btn {
+    width: 175px;
+  }
+}
+@media (max-width: 425px) {
+  .input {
+    width: 100%;
+  }
+  .btn {
+    width: 50%;
+  }
+}
