@@ -3,6 +3,21 @@
   flex-direction: column;
   gap: 20px;
 }
+.goBack {
+  margin-top: 10px;
+  align-self: start;
+  background: none;
+  border: none;
+  color: #ff5733;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s;
+}
+.goBack:hover {
+  color: #ff9a76;
+}
 .title {
   padding: 20px 0 0;
   font-size: 22px;
@@ -32,6 +47,7 @@
   border-radius: 8px;
   border-left: 1px solid #ff5733;
   border-bottom: 1px solid #ff5733;
+  transition: color 0.3s;
 }
 
 .link.active {
