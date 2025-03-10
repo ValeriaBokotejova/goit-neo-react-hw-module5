@@ -29,8 +29,11 @@
   border-radius: 8px;
   cursor: pointer;
   width: 75px;
+  transition: background-color 0.3s;
 }
-
+.btn:hover {
+  background-color: rgb(180, 0, 255);
+}
 @media (max-width: 768px) {
   .input {
     width: 100%;
